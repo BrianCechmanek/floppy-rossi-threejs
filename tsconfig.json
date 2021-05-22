@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES6",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist/public"
+  },
+  "include": [
+    "./public/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
