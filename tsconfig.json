@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "skipLibCheck": true,
-    "module": "commonjs",
+    "module": "none",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "target": "ES6",
-    "resolveJsonModule": true,
+    "target": "ES5",
     "allowJs": true,
-    "outDir": "./dist/public"
+    "noEmit": true
   },
   "include": [
     "./public/**/*"

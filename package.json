@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "tsc && cp ./index.html ./dist"
+    "build": "tsc && babel ./public --out-dir ./dist/public && cp ./index.html ./dist && cp -r ./public/vendor ./dist/public/vendor"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/BrianCechmanek/floppy-rossi-threejs#readme",
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
     "@types/three": "^0.128.0",
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "three": "^0.128.0"
+    "@babel/preset-typescript": "^7.13.0"
   }
 }

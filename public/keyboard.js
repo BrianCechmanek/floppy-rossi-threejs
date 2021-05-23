@@ -1,7 +1,6 @@
 
-/* tslint:disable */
 
-export default {
+const Key = {
   _pressed: {},
 
   A: 65,

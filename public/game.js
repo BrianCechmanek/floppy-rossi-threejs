@@ -1,9 +1,4 @@
 
-/* tslint:disable */
-
-import * as THREE from 'three';
-import Key from './keyboard.js';
-
 // scene object variables
 let renderer, scene, camera;
 let cube;
