@@ -23,4 +23,4 @@ Currently hosted on Netlify: [here](https://laughing-bose-6ff070.netlify.app/)
 
 # License
 
-GNU 2.0. See licence. 
+GNU 3.0. See licence. 
