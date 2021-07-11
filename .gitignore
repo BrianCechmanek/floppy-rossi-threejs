@@ -1,0 +1,5 @@
+# annoying web stuff
+node_modules/
+
+# logs
+.log
