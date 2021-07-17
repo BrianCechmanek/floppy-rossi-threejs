@@ -7,11 +7,18 @@ This project is just for fun and learning.
 
 # Running 
 
-`TODO`
+for local development:   
+`npm run dev`
+
+for deployment:  
+`npm run start`
+
+to build:   
+`npm run build`
 
 # Requirements 
 
-`TODO`
+See `package.json`. But the primary requirements are [threeJS](threejs.org), [Typescript](https://www.typescriptlang.org/), and `npm`/`node` to run the server. 
 
 # Interesting Things
 
