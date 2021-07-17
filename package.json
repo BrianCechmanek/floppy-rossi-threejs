@@ -10,8 +10,6 @@
     "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
     "express": "^4.14.0",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
@@ -33,6 +31,8 @@
   },
   "homepage": "https://github.com/BrianCechmanek/floppy-rossi-threejs#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "html-loader": "^2.1.2",
