@@ -1,10 +1,6 @@
 # annoying web stuff
 node_modules/
-node_modules
 dist/
-webpack
-floppyrossi@*
 
 # logs
 .log
-

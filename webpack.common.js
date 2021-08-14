@@ -2,7 +2,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
 	entry: {
-		index: ['./public/index.js']
+		index: ['./public/index.ts']
 	},
 	plugins: [
 		new CleanWebpackPlugin(),
@@ -25,6 +25,11 @@ module.exports = {
 						name: './font/[hash].[ext]',
 					}
 				}
+			},
+			{
+				test: /\.tsx?$/,
+				use: 'ts-loader',
+				exclude: /node_modules/,
 			},
 			{
 				test: /\.m?jsx?$/,

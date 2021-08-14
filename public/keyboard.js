@@ -1,7 +1,6 @@
-window.addEventListener('keyup', function(event) { Key.onKeyup(event); }, false);
-window.addEventListener('keydown', function(event) { Key.onKeydown(event); }, false);
 
-var Key = {
+
+const Key = {
   _pressed: {},
 
   A: 65,
