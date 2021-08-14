@@ -1,3 +1,6 @@
-# npm and node
+# annoying web stuff
 node_modules/
 dist/
+
+# logs
+.log
