@@ -7,14 +7,15 @@ This project is just for fun and learning.
 
 # Running 
 
+to build:   
+`npm run build`
+
 for local development:   
 `npm run dev`
 
 for deployment:  
 `npm run start`
 
-to build:   
-`npm run build`
 
 # Requirements 
 
